@@ -5,8 +5,9 @@
     <projectFile profileName="Marketplace">Marketplace/Marketplace.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ee387ce-a714-49c0-a69a-20d614e4ecc3" name="Changes" comment="Add a reference to domain project">
-      <change beforePath="$PROJECT_DIR$/Marketplace.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Marketplace.sln" afterDir="false" />
+    <list default="true" id="8ee387ce-a714-49c0-a69a-20d614e4ecc3" name="Changes" comment="Add marketplace.framework">
+      <change afterPath="$PROJECT_DIR$/Marketplace.Domain/ClassifiedAd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Marketplace/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marketplace/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677864124730</updated>
-      <workItem from="1677864133748" duration="1274000" />
+      <workItem from="1677864133748" duration="2783000" />
     </task>
     <task id="LOCAL-00001" summary="clean and structure projects">
       <created>1677864647530</created>
@@ -92,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677864702321</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add marketplace.framework">
+      <created>1677865985332</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677865985332</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +124,7 @@
     <MESSAGE value="clean and structure projects" />
     <MESSAGE value="clean and set up projects" />
     <MESSAGE value="Add a reference to domain project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a reference to domain project" />
+    <MESSAGE value="Add marketplace.framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add marketplace.framework" />
   </component>
 </project>
