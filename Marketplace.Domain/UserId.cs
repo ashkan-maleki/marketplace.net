@@ -1,6 +1,8 @@
-﻿namespace Marketplace.Domain;
+﻿using Marketplace.Framework;
 
-public class UserId
+namespace Marketplace.Domain;
+
+public class UserId : Value<UserId>
 {
     private readonly Guid _value;
 
