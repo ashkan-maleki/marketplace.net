@@ -5,9 +5,9 @@
     <projectFile profileName="Marketplace">Marketplace/Marketplace.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ee387ce-a714-49c0-a69a-20d614e4ecc3" name="Changes" comment="Add marketplace.framework">
-      <change afterPath="$PROJECT_DIR$/Marketplace.Domain/ClassifiedAd.cs" afterDir="false" />
+    <list default="true" id="8ee387ce-a714-49c0-a69a-20d614e4ecc3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Marketplace/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marketplace/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marketplace.Domain/ClassifiedAd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marketplace.Domain/ClassifiedAd.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +22,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Marketplace">
     <configuration name="Marketplace" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Marketplace/Marketplace.csproj" />
@@ -70,7 +70,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677864124730</updated>
-      <workItem from="1677864133748" duration="2783000" />
+      <workItem from="1677864133748" duration="3373000" />
+      <workItem from="1677936734444" duration="976000" />
     </task>
     <task id="LOCAL-00001" summary="clean and structure projects">
       <created>1677864647530</created>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677865985332</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create ClassifiedAd entity according to ddd.">
+      <created>1677870256542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677870256542</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +133,7 @@
     <MESSAGE value="clean and set up projects" />
     <MESSAGE value="Add a reference to domain project" />
     <MESSAGE value="Add marketplace.framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add marketplace.framework" />
+    <MESSAGE value="Create ClassifiedAd entity according to ddd." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create ClassifiedAd entity according to ddd." />
   </component>
 </project>
