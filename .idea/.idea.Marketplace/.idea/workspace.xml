@@ -6,23 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee387ce-a714-49c0-a69a-20d614e4ecc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Marketplace.Domain/Money.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marketplace.Domain/Price.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marketplace.Framework/Value.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marketplace.Tests/MoneyTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Marketplace/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Marketplace/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marketplace.Domain/ClassifiedAdId.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marketplace.Domain/ClassifiedAdId.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marketplace.Domain/Marketplace.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Marketplace.Domain/Marketplace.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marketplace.Domain/UserId.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marketplace.Domain/UserId.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marketplace.Tests/Marketplace.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Marketplace.Tests/Marketplace.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marketplace.Domain/ClassifiedAd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marketplace.Domain/ClassifiedAd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marketplace.Domain/Money.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Marketplace.Domain/Money.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://F:/learn/dotnet/marketplace.net/Marketplace.Domain/ClassifiedAdId.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,7 +73,8 @@
       <updated>1677864124730</updated>
       <workItem from="1677864133748" duration="3373000" />
       <workItem from="1677936734444" duration="5786000" />
-      <workItem from="1677950703330" duration="2590000" />
+      <workItem from="1677950703330" duration="2879000" />
+      <workItem from="1678010304754" duration="1628000" />
     </task>
     <task id="LOCAL-00001" summary="clean and structure projects">
       <created>1677864647530</created>
@@ -140,7 +132,49 @@
       <option name="project" value="LOCAL" />
       <updated>1677938843520</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Convert ClassifiedAdId.cs to value object">
+      <created>1677953320512</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953320512</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Convert UserId.cs to value object">
+      <created>1677953338387</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953338387</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Convert Money to value object and overload add and subtract operators">
+      <created>1677953404123</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953404123</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Design a test for addition of money">
+      <created>1677953435753</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953435754</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Create a base class for object value">
+      <created>1677953456060</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953456060</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Create price type based on money which do not accept negative values">
+      <created>1677953486775</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953486775</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +203,12 @@
     <MESSAGE value="Create user id" />
     <MESSAGE value="Create Classified Ad id" />
     <MESSAGE value="Modify constructor to accept value objects instead of Guid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify constructor to accept value objects instead of Guid" />
+    <MESSAGE value="Convert ClassifiedAdId.cs to value object" />
+    <MESSAGE value="Convert UserId.cs to value object" />
+    <MESSAGE value="Convert Money to value object and overload add and subtract operators" />
+    <MESSAGE value="Design a test for addition of money" />
+    <MESSAGE value="Create a base class for object value" />
+    <MESSAGE value="Create price type based on money which do not accept negative values" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create price type based on money which do not accept negative values" />
   </component>
 </project>
